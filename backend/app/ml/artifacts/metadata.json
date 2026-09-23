@@ -1,0 +1,19 @@
+{
+  "model_version": "v1.0.0-gbr",
+  "algorithm": "GradientBoostingRegressor",
+  "n_estimators": 100,
+  "features": [
+    "upi_consistency",
+    "upi_frequency",
+    "rent_regularity",
+    "utility_payment_timeliness",
+    "recharge_consistency",
+    "income_stability",
+    "transaction_regularity"
+  ],
+  "samples_trained": 800,
+  "metrics": {
+    "rmse": 17.43,
+    "r2_score": 0.812
+  }
+}

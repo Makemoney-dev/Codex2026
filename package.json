@@ -1,0 +1,11 @@
+{
+  "name": "invisiblescore",
+  "version": "1.0.0",
+  "private": true,
+  "description": "InvisibleScore - Credit Score for the Invisible",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "start": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  }
+}
